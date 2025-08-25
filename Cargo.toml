@@ -1,0 +1,17 @@
+[package]
+name = "iptime_wol2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+clap = { version = "4.5.41", features = ["derive"] }
+cookie_store = "0.21.1"
+macaddr = "1.0.1"
+qstring = "0.7.2"
+reqwest = { version = "0.12.22", features = ["cookies", "json"] }
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = { version = "1.0.141", features = ["alloc"] }
+thiserror = "2.0.12"
+tokio = { version = "1.46.1", features = ["full"] }
+urlencoding = "2.1.3"
